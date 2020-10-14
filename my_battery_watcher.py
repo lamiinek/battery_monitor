@@ -60,7 +60,7 @@ class BatteryWatcher():
         title = "Lamine Battery Care"
         icon_path = str(pathlib.Path(__file__).parent.absolute())
         bat_full_icon = icon_path+"/battery_full.png"
-        bat_topoff_icon = icon_path+"/battery_topff.png"
+        bat_topoff_icon = icon_path+"/battery_topoff.png"
         bat_low_icon = icon_path+"/battery_low.png"
         Notify.init(title)
         if status == "full":
