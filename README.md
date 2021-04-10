@@ -1,5 +1,5 @@
 # Battery Monitor for Linux
-Simple program to help keep laptop battery charge between 20 and 80 percentage.
+Simple program to help keep laptop battery charge between 20% and 80%.
 * install dependencies:
   - sudo apt-get install python-gobject
   - sudo apt-get install libnotify-bin
